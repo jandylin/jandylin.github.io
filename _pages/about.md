@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "About"
 permalink: /
 author_profile: true
 # redirect_from: 
@@ -11,4 +11,14 @@ I joined Cambridge CBL in October 2022 as a PhD student participating in the Cam
 
 Latest News
 ======
-- Something exciting.
+- I submitted 1 NeurIPS conference paper, 2 AABI symposium papers, and 2 ICML workshop papers!
+
+Contact
+======
+<address>
+Jihao Andreas Lin<br>
+Queens' College<br>
+Cambridge<br>
+CB3 9ET<br>
+United Kingdom
+</address>

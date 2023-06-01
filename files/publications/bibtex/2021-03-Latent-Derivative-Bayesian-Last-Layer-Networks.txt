@@ -1,0 +1,6 @@
+@inproceedings{watson2021latent,
+    title = {Latent Derivative Bayesian Last Layer Networks},
+    author = {Joe Watson and Jihao Andreas Lin and Pascal Klink and Joni Pajarinen and Jan Peters},
+    booktitle = {International Conference on Artificial Intelligence and Statistics},
+    year = {2021}
+}

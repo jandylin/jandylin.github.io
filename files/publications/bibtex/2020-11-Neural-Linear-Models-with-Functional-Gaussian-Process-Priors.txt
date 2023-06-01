@@ -1,0 +1,6 @@
+@inproceedings{watson2020neural,
+    title = {Neural Linear Models with Functional Gaussian Process Priors},
+    author = {Joe Watson and Jihao Andreas Lin and Pascal Klink and Jan Peters},
+    booktitle = {Advances in Approximate Bayesian Inference},
+    year = {2020}
+}

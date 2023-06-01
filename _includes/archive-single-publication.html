@@ -2,20 +2,39 @@
 
 {% assign teaser = site.teaser %}
 
-<article class="debug">
-  <a class="db pv3 ph4 ph0-l black dim" href="{{post.paperurl}}" target="_blank" style="text-decoration:none">
-    <div class="flex flex-column flex-row-ns">
-      <div class="pr3-ns mb3 mb0-ns w-100 w-25-ns">
-        <img src="http://mrmrs.github.io/photos/cpu.jpg">
-      </div>
-      <div class="w-100 w-75-ns pl3-ns">
-        <p class="mt0 f5">
-          <span class="f4 fw5">{{ post.title }}</span><br>
-          {{ post.authors }}<br>
-          <i>{{ post.venue }}</i>
+<article>
+  <div class="flex flex-column flex-row-ns">
+    <div class="pv2 w-100 w-25-ns pr2-ns" style="
+        background-image: url(/files/publications/teasers/{{post.filename}}.pdf);
+        background-origin: content-box;
+        background-size: 100% 100%;
+        background-repeat: no-repeat"></div>
+    <div class="pv2 w-100 w-75-ns pl2-ns">
+      <p class="mt0 mb0 f5">
+        <span class="f4 fw6">{{ post.title }}</span><br>
+        {{ post.authors | replace: 'J. A. Lin' : '<span class="fw7">J. A. Lin</span>' | replace: '*' : '<sup><strong>&#xFF0A;</strong></sup>'}}<br>
+        <i>{{ post.venue }}</i>
+      </p>
+      <p class="mt2 mb0 f5">
+        <a class="db ph0-l mid-gray dim"
+          href="/files/publications/{{post.filename}}.pdf" target="_blank"
+          style="text-decoration: none; display: inline">
+          <i class="fa fa-fw fa-file-pdf"></i>PDF
+        </a>
+        <a class="db ph0-l mid-gray dim"
+        href="/files/publications/bibtex/{{post.filename}}.txt" target="_blank"
+        style="text-decoration: none; display: inline">
+        <i class="fa fa-fw fa-book"></i>BibTeX
+        </a>
+        {% if post.code %}
+          <a class="db ph0-l mid-gray dim"
+          href="{{post.code}}" target="_blank"
+          style="text-decoration: none; display: inline">
+          <i class="fa fa-fw fa-folder-open"></i>Code
+          </a>
+        {% endif %}
         </p>
-        <p>Links</p>
-      </div>
     </div>
-  </a>
+  </div>
+  <!-- </a> -->
 </article>
