@@ -1,0 +1,21 @@
+{% include base_path %}
+
+{% assign teaser = site.teaser %}
+
+<article class="debug">
+  <a class="db pv3 ph4 ph0-l black dim" href="{{post.paperurl}}" target="_blank" style="text-decoration:none">
+    <div class="flex flex-column flex-row-ns">
+      <div class="pr3-ns mb3 mb0-ns w-100 w-25-ns">
+        <img src="http://mrmrs.github.io/photos/cpu.jpg">
+      </div>
+      <div class="w-100 w-75-ns pl3-ns">
+        <p class="mt0 f5">
+          <span class="f4 fw5">{{ post.title }}</span><br>
+          {{ post.authors }}<br>
+          <i>{{ post.venue }}</i>
+        </p>
+        <p>Links</p>
+      </div>
+    </div>
+  </a>
+</article>
