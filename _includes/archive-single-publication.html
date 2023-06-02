@@ -12,7 +12,7 @@
     <div class="pv2 w-100 w-75-ns pl2-ns">
       <p class="mt0 mb0 f5">
         <span class="f4 fw6">{{ post.title }}</span><br>
-        {{ post.authors | replace: 'J. A. Lin' : '<span class="fw7">J. A. Lin</span>' | replace: '*' : '<sup><strong>&#xFF0A;</strong></sup>'}}<br>
+        {{ post.authors | replace: 'J. A. Lin' : '<span class="fw7">J. A. Lin</span>' | replace: '*' : '<sup style="z-index: -1"><strong>&#xFF0A;</strong></sup>'}}<br>
         <i>{{ post.venue }}</i>
       </p>
       <p class="mt2 mb0 f5">
