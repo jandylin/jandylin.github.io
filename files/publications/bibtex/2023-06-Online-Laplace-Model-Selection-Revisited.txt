@@ -1,0 +1,6 @@
+@inproceedings{lin2023online,
+    title = {Online Laplace Model Selection Revisited},
+    author = {Jihao Andreas Lin and Javier Antorán and José Miguel Hernández-Lobato},
+    booktitle = {Advances in Approximate Bayesian Inference},
+    year = {2023}
+}

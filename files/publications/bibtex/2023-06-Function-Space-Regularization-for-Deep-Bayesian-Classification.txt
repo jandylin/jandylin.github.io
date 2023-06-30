@@ -1,0 +1,6 @@
+@inproceedings{lin2023function,
+    title = {Function-Space Regularization for Deep Bayesian Classification},
+    author = {Jihao Andreas Lin and Joe Watson and Pascal Klink and Jan Peters},
+    booktitle = {Advances in Approximate Bayesian Inference},
+    year = {2023}
+}
