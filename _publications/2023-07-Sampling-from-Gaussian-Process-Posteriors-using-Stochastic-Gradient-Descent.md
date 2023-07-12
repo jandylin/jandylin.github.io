@@ -4,4 +4,5 @@ title: "Sampling from Gaussian Process Posteriors using Stochastic Gradient Desc
 collection: publications
 authors: "J. A. Lin*, J. Antorán*, S. Padhy*, D. Janz, J. M. Hernández-Lobato, A. Terenin"
 venue: "Preprint, arXiv:2306.11589"
+pdf: "https://arxiv.org/pdf/2306.11589.pdf"
 ---

@@ -5,7 +5,7 @@
 <article>
   <div class="flex flex-column flex-row-ns">
     <div class="pv2 w-100 w-20-ns pr1-ns" style="
-        background-image: url(/files/publications/teasers/{{post.filename}}.svg);
+        background-image: url(/files/publications/thumbnails/{{post.filename}}.svg);
         background-origin: content-box;
         background-size: 100% 100%;
         background-repeat: no-repeat"></div>
@@ -16,16 +16,13 @@
         <i>{{ post.venue }}</i>
       </p>
       <p class="mt1 mb0 f7">
+        {% if post.pdf %}
         <a class="db ph0-l mid-gray dim"
-          href="/files/publications/{{post.filename}}.pdf" target="_blank"
+          href="{{post.pdf}}" target="_blank"
           style="text-decoration: none; display: inline">
           <i class="fa fa-fw fa-file-pdf"></i>PDF
         </a>
-        <a class="db ph0-l mid-gray dim"
-        href="/files/publications/bibtex/{{post.filename}}.txt" target="_blank"
-        style="text-decoration: none; display: inline">
-        <i class="fa fa-fw fa-book"></i>BibTeX
-        </a>
+        {% endif %}
         {% if post.code %}
           <a class="db ph0-l mid-gray dim"
           href="{{post.code}}" target="_blank"
@@ -33,6 +30,11 @@
           <i class="fa fa-fw fa-folder-open"></i>Code
           </a>
         {% endif %}
+        <a class="db ph0-l mid-gray dim"
+        href="/files/publications/bibtex/{{post.filename}}.txt" target="_blank"
+        style="text-decoration: none; display: inline">
+        <i class="fa fa-fw fa-book"></i>BibTeX
+        </a>
         </p>
     </div>
   </div>

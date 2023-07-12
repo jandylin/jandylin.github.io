@@ -1,6 +1,6 @@
 @inproceedings{lin2023minimal,
     title = {Minimal Random Code Learning with Mean-KL Parameterization},
     author = {Jihao Andreas Lin and Gergely Flamich and José Miguel Hernández-Lobato},
-    booktitle = {Neural Compression Workshop at ICML},
+    booktitle = {ICML Neural Compression Workshop},
     year = {2023}
 }
