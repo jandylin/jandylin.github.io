@@ -14,7 +14,8 @@ I also attended the [University of British Columbia](https://www.ubc.ca){:target
 
 Latest News
 ======
-- I submitted 1 NeurIPS conference paper, 2 AABI symposium papers, and 2 ICML workshop papers!
+- Our preprint of "Sampling from Gaussian Process Posteriors using Stochastic Gradient Descent" is now available on [arxiv](https://arxiv.org/abs/2306.11589){:target="_blank"}!
+- I presented 2 posters and gave 1 contributed talk at AABI2023, and presented 2 posters at ICML2023 workshops!
 
 Contact
 ======
