@@ -1,6 +1,6 @@
 @inproceedings{tazi2023beyond,
     title = {Beyond Intuition, a Framework for Applying GPs to Real-World Data},
     author = {Kenza Tazi and Jihao Andreas Lin and Ross Viljoen and Alex Gardner and Ti John and Hong Ge and Richard E. Turner},
-    booktitle = {ICML Structured Probabilistic Inference & Generative Modeling Workshop},
+    booktitle = {ICML Structured Probabilistic Inference \& Generative Modeling Workshop},
     year = {2023}
 }
