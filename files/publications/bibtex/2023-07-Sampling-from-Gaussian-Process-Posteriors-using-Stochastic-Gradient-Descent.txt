@@ -1,6 +1,6 @@
 @inproceedings{lin2023sampling,
     title = {Sampling from Gaussian Process Posteriors using Stochastic Gradient Descent},
     author = {Jihao Andreas Lin and Javier Antorán and Shreyas Padhy and David Janz and José Miguel Hernández-Lobato and Alexander Terenin},
-    booktitle = {Preprint, arXiv:2306.11589},
+    booktitle = {Advances in Neural Information Processing Systems},
     year = {2023}
 }
