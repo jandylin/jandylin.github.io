@@ -1,0 +1,5 @@
+1. Crop PDF
+2. Export as PNG with 400 pixels / inch
+3. Use png2svg.com to convert PNG to SVG
+4. Use iloveimg.com to resize SVG to 600x400 pixels
+5. Use iloveimg.com to compress SVG

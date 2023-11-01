@@ -1,0 +1,6 @@
+@inproceedings{lin2023stochastic,
+    title = {Stochastic Gradient Descent for Gaussian Processes Done Right},
+    author = {Jihao Andreas Lin and Shreyas Padhy and Javier Antorán and Austin Tripp and Alexander Terenin and Csaba Szepesvári and José Miguel Hernández-Lobato and David Janz},
+    booktitle = {Preprint},
+    year = {2023}
+}
