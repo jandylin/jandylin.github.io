@@ -1,0 +1,8 @@
+@misc{lin2024improving,
+    title={Improving Linear System Solvers for Hyperparameter Optimisation in Iterative Gaussian Processes}, 
+    author={Jihao Andreas Lin and Shreyas Padhy and Bruno Mlodozeniec and Javier Antorán and José Miguel Hernández-Lobato},
+    year={2024},
+    eprint={2405.18457},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}

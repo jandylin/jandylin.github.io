@@ -1,0 +1,6 @@
+@inproceedings{lin2024warm,
+    title = {Warm Start Marginal Likelihood Optimisation for Iterative Gaussian Processes},
+    author = {Jihao Andreas Lin and Shreyas Padhy and Bruno Mlodozeniec and José Miguel Hernández-Lobato},
+    booktitle = {Advances in Approximate Bayesian Inference},
+    year = {2024}
+}
