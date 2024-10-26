@@ -1,6 +1,6 @@
 @inproceedings{lin2024improving,
-    title={Improving Linear System Solvers for Hyperparameter Optimisation in Iterative Gaussian Processes}, 
-    author={Jihao Andreas Lin and Shreyas Padhy and Bruno Mlodozeniec and Javier Antorán and José Miguel Hernández-Lobato},
+    title = {Improving Linear System Solvers for Hyperparameter Optimisation in Iterative Gaussian Processes}, 
+    author = {Jihao Andreas Lin and Shreyas Padhy and Bruno Mlodozeniec and Javier Antorán and José Miguel Hernández-Lobato},
     booktitle = {Advances in Neural Information Processing Systems},
     year = {2024}
 }
