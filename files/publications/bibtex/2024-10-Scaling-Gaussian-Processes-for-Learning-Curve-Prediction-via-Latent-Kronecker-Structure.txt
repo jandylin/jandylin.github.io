@@ -1,4 +1,4 @@
-@inproceedings{lin2024improving,
+@inproceedings{lin2024scaling,
     title = {Scaling Gaussian Processes for Learning Curve Prediction via Latent Kronecker Structure}, 
     author = {Jihao Andreas Lin and Sebastian Ament and Maximilian Balandat and Eytan Bakshy},
     booktitle = {NeurIPS Bayesian Decision-making and Uncertainty Workshop},
