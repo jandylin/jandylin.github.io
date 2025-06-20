@@ -1,0 +1,6 @@
+@inproceedings{lin2025scalable,
+    title = {Scalable Gaussian Processes with Latent Kronecker Structure}, 
+    author = {Jihao Andreas Lin and Sebastian Ament and Maximilian Balandat and David Eriksson and José Miguel Hernández-Lobato and Eytan Bakshy},
+    booktitle = {International Conference on Machine Learning},
+    year = {2025}
+}

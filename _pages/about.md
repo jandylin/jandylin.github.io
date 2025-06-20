@@ -14,7 +14,7 @@ I also attended the [University of British Columbia](https://www.ubc.ca){:target
 
 Latest News
 ======
-- Our paper *Improving Linear System Solvers for Hyperparameter Optimisation in Iterative Gaussian Processes* was accepted at **NeurIPS 2024**!
+- Our paper *Scalable Gaussian Processes with Latent Kronecker Structure* was accepted at **ICML 2025**!
 - I spent my summer as a **Research Scientist Intern** at **Meta**, working on scalable Gaussian processes for learning curve prediction.
 - I presented our paper *Stochastic Gradient Descent for Gaussian Processes Done Right* at **ICLR 2024**!
 - I gave an **oral presentation** at **NeurIPS 2023** about our paper *Sampling from Gaussian Process Posteriors using Stochastic Gradient Descent*!
