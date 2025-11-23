@@ -1,0 +1,6 @@
+@inproceedings{lin2025successive,
+    title = {Successive Halving with Learning Curve Prediction via Latent Kronecker Gaussian Processes}, 
+    author = {Jihao Andreas Lin, Nicolas Mayoraz, Steffen Rendle, Dima Kuzmin, Emil Praun, Berivan Isik},
+    booktitle = {AutoML Non-Archival Track},
+    year = {2025}
+}

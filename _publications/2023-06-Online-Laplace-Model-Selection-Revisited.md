@@ -5,5 +5,5 @@ collection: publications
 authors: "J. A. Lin, J. Antorán, J. M. Hernández-Lobato"
 venue: "Advances in Approximate Bayesian Inference 2023"
 award: "Contributed Talk"
-pdf: "https://arxiv.org/pdf/2307.06093.pdf"
+pdf: "https://arxiv.org/abs/2307.06093"
 ---

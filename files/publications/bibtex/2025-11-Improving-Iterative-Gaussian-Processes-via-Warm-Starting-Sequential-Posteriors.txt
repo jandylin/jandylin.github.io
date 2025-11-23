@@ -1,0 +1,6 @@
+@inproceedings{dong2025improving,
+    title = {Improving Iterative Gaussian Processes via Warm Starting Sequential Posteriors}, 
+    author = {Alan Yufei Dong, Jihao Andreas Lin, José Miguel Hernández-Lobato},
+    booktitle = {NeurIPS Structured Probabilistic Inference \& Generative Modeling Workshop},
+    year = {2025}
+}

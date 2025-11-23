@@ -4,5 +4,5 @@ title: "Scaling Gaussian Processes for Learning Curve Prediction via Latent Kron
 collection: publications
 authors: "J. A. Lin, S. Ament, M. Balandat, E. Bakshy"
 venue: "Bayesian Decision-making and Uncertainty Workshop at NeurIPS 2024"
-pdf: "https://arxiv.org/pdf/2410.09239.pdf"
+pdf: "https://arxiv.org/abs/2410.09239"
 ---

@@ -4,5 +4,5 @@ title: "Stochastic Gradient Descent for Gaussian Processes Done Right"
 collection: publications
 authors: "J. A. Lin*,  S. Padhy*, J. Antorán*, A. Tripp, A. Terenin, C. Szepesvári, J. M. Hernández-Lobato, D. Janz"
 venue: "International Conference on Learning Representations 2024"
-pdf: "https://arxiv.org/pdf/2310.20581.pdf"
+pdf: "https://arxiv.org/abs/2310.20581"
 ---

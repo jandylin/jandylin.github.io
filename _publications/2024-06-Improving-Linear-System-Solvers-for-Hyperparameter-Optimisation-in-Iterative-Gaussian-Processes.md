@@ -4,5 +4,5 @@ title: "Improving Linear System Solvers for Hyperparameter Optimisation in Itera
 collection: publications
 authors: "J. A. Lin, S. Padhy, B. Mlodozeniec, J. Antorán, J. M. Hernández-Lobato"
 venue: "Advances in Neural Information Processing Systems 2024"
-pdf: "https://arxiv.org/pdf/2405.18457.pdf"
+pdf: "https://arxiv.org/abs/2405.18457"
 ---
