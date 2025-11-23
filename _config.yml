@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en-GB"
+locale                   : "en-US"
 title                    : "Jihao Andreas Lin"
 title_separator          : "-"
 name                     : &name "Jihao Andreas Lin"
-description              : &description "PhD student at University of Cambridge"
+description              : &description "Research Scientist at Meta"
 url                      : https://jandylin.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jandylin.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Jihao Andreas Lin"
   avatar           : "profile.jpg"
-  bio              : "PhD Student"
-  location         : "University of Cambridge"
+  bio              : "Research Scientist at Meta"
+  location         : "New York, NY, USA"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=Bn1GyeEAAAAJ"
-  email            : "jal232@cam.ac.uk"
+  email            : "jandylin@meta.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -100,10 +100,10 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "jandylin"
-  orcid            : #"https://orcid.org/0009-0006-7477-6436"
+  orcid            : # "https://orcid.org/0009-0006-7477-6436"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
