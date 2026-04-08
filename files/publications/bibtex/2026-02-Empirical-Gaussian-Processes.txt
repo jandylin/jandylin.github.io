@@ -1,0 +1,6 @@
+@inproceedings{lin2026empirical,
+    title = {Empirical Gaussian Processes}, 
+    author = {Jihao Andreas Lin and Sebastian Ament and Louis C. Tiao and David Eriksson and Maximilian Balandat and Eytan Bakshy},
+    booktitle = {Preprint},
+    year = {2026},
+}
