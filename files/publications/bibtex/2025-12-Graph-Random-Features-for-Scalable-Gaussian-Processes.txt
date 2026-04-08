@@ -1,6 +1,6 @@
-@inproceedings{zhang2025graph,
+@inproceedings{zhang2026graph,
     title = {Graph Random Features for Scalable Gaussian Processes}, 
     author = {Matthew Zhang, Jihao Andreas Lin, Krzysztof Choromanski, Adrian Weller, Richard E. Turner, Isaac Reid},
-    booktitle = {Preprint},
-    year = {2025}
+    booktitle = {International Conference on Learning Representations},
+    year = {2026}
 }
