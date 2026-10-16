@@ -1,0 +1,71 @@
+# Main stages appear newest first; related work and study are grouped beneath them.
+# Year anchors mark end years; exact periods are retained for editing.
+# Roles, degrees, and project details appear in the right column.
+# Set secondary: true for supporting roles and visiting-study subheaders.
+- organization: Meta
+  period: Sep 2025–Present
+  year: Present
+  subentries:
+    - title: Research Scientist
+    - title: AI & Systems Co-Design (with TBD Labs)
+      secondary: true
+      details:
+        - Optimization, hyperparameter scaling, and training stability for large language model pre-training.
+    - title: Central Applied Science
+      secondary: true
+      details:
+        - Probabilistic modeling for more efficient neural network training, delivering $48M/year in compute resource savings.
+
+- organization: University of Cambridge
+  period: Oct 2022–Jul 2025
+  year: 2025
+  subentries:
+    - title: Ph.D. in Probabilistic Machine Learning
+      details:
+        - 'Thesis: "Scalable Gaussian Processes: Iterative Methods and Pathwise Conditioning", supervised by José Miguel Hernández-Lobato'
+    - title: Google · Student Researcher
+      secondary: true
+      period: Apr 2025–Jun 2025
+      year: 2025
+      details:
+        - Researched learning curve prediction for early stopping and model scaling.
+    - title: Meta · Research Scientist Intern
+      secondary: true
+      period: Jun 2024–Oct 2024
+      year: 2024
+      details:
+        - Developed learning curve prediction models for early stopping, demonstrating up to 25% compute savings on internal production data.
+
+- organization: Smiths Detection
+  period: Aug 2021–Apr 2022
+  year: 2022
+  subentries:
+    - title: Research Engineer
+      details:
+        - Used convolutional neural networks to enhance the quality of 3D CT baggage scans.
+
+- organization: TU Darmstadt
+  period: Oct 2015–Sep 2021
+  year: 2021
+  start_year: 2015
+  subentries:
+    - title: M.Sc. in Autonomous Systems
+      period: Oct 2018–Sep 2021
+      year: 2021
+      details:
+        - 'Thesis: "Functional Variational Inference in Bayesian Neural Networks", supervised by Jan Peters'
+    - title: Visiting Student
+      secondary: true
+      details:
+        - Studied at University of British Columbia, Stanford University, and Aalto University.
+    - title: B.Sc. in Computer Science
+      period: Oct 2015–Oct 2018
+      year: 2018
+      details:
+        - 'Thesis: "Liquid Segmentation in 3D CT Baggage Scans", supervised by Stefan Roth'
+    - title: Research Assistant
+      secondary: true
+      period: Dec 2015–Feb 2018
+      year: 2018
+      details:
+        - Research on convolutional neural networks and contributions to the MOT16 tracking benchmark.

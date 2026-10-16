@@ -1,22 +1,12 @@
-{% include base_path %}
-
 <meta charset="utf-8">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 {% include seo.html %}
-
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/tachyons.css">
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
-
-<meta http-equiv="cleartype" content="on">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="icon" type="image/png" href="{{ '/images/favicon-32.png' | relative_url }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ '/images/favicon-128.png' | relative_url }}" sizes="128x128">
+<link rel="apple-touch-icon" href="{{ '/images/favicon-180.png' | relative_url }}" sizes="180x180">
+<link rel="icon" type="image/png" href="{{ '/images/favicon-192.png' | relative_url }}" sizes="192x192">
+<link rel="manifest" href="{{ '/images/manifest.json' | relative_url }}">
+<link rel="mask-icon" href="{{ '/images/safari-pinned-tab.svg' | relative_url }}" color="#000000">
+<meta name="theme-color" content="#ffffff">
+{% include mathjax.html %}

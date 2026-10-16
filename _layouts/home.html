@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<main id="main" class="home">
+  {% include home-profile.html %}
+
+  <section class="home__bio page__content" aria-labelledby="about">
+    <h2 id="about">About</h2>
+    {{ content }}
+  </section>
+
+  {% include timeline.html %}
+
+  <section class="home__publications" aria-labelledby="publications">
+    <h2 id="publications">Selected Publications</h2>
+    {% assign selected_publications = site.publications | where: "selected", true %}
+    {% for post in selected_publications reversed %}
+      {% include archive-single-publication.html %}
+    {% endfor %}
+    {% if site.author.googlescholar %}
+      <p>See <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a> for a complete list of publications.</p>
+    {% endif %}
+  </section>
+</main>

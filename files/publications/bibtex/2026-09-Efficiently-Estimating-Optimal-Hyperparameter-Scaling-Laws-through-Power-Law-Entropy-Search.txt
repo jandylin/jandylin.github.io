@@ -1,0 +1,6 @@
+@inproceedings{chen2026efficiently,
+    title = {Efficiently Estimating Optimal Hyperparameter Scaling Laws through Power-Law Entropy Search},
+    author = {Zhiliang Chen and Sebastian Ament and David Eriksson and Maximilian Balandat and Bryan Kian Hsiang Low and Eytan Bakshy and Jihao Andreas Lin},
+    booktitle = {Preprint},
+    year = {2026}
+}

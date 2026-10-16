@@ -1,0 +1,40 @@
+<section class="home__timeline" aria-labelledby="timeline">
+  <h2 id="timeline">Timeline</h2>
+  <ol class="timeline" role="list">
+    {% for entry in site.data.timeline %}
+      <li class="timeline__entry">
+        {% assign marker_year = entry.year %}
+        {% for subentry in entry.subentries %}
+          <div class="timeline__row">
+            {% if forloop.first %}
+              <span class="timeline__label timeline__year">{{ entry.year | escape }}</span>
+            {% elsif subentry.year and subentry.year != marker_year %}
+              <span class="timeline__label timeline__year">{{ subentry.year | escape }}</span>
+              {% assign marker_year = subentry.year %}
+            {% endif %}
+            {% if forloop.first %}
+              <div class="timeline__summary">
+                <h3 class="timeline__organization">{{ entry.organization | escape }}</h3>
+              </div>
+            {% endif %}
+            <div class="timeline__body">
+              {% assign heading = 'h4' %}
+              {% if subentry.secondary %}{% assign heading = 'h5' %}{% endif %}
+              <{{ heading }} class="timeline__heading{% if subentry.secondary %} timeline__subheading{% endif %}">{{ subentry.title | escape }}</{{ heading }}>
+              {% if subentry.details %}
+                <ul class="timeline__details">
+                  {% for detail in subentry.details %}
+                    <li>{{ detail | escape }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+        {% if forloop.last and entry.start_year %}
+          <span class="timeline__label timeline__start-year">{{ entry.start_year | escape }}</span>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ol>
+</section>

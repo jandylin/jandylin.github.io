@@ -1,45 +1,16 @@
-{% include base_path %}
-
-{% assign teaser = site.teaser %}
-
-<article>
-  <div class="flex flex-column flex-row-ns">
-    <div class="pv2 w-100 w-20-ns pr1-ns" style="
-        background-image: url(/files/publications/thumbnails/{{post.filename}}.svg);
-        background-origin: content-box;
-        background-size: 100% 100%;
-        background-repeat: no-repeat"></div>
-    <div class="pv2 w-100 w-80-ns pl1-ns">
-      <p class="mt0 mb0 f6">
-        <span class="f5 fw6">{{ post.title }}</span><br>
-        {{ post.authors | replace: 'J. A. Lin' : '<span class="fw6">J. A. Lin</span>' | replace: '*' : '<sup style="z-index: -1"><strong>&#xFF0A;</strong></sup>'}}<br>
-        <i>{{ post.venue }}</i>
-        {% if post.award %}
-         (<strong>{{ post.award }}</strong>)
-        {% endif %}
-      </p>
-      <p class="mt1 mb0 f7">
-        {% if post.pdf %}
-        <a class="db ph0-l mid-gray dim"
-          href="{{post.pdf}}" target="_blank"
-          style="text-decoration: none; display: inline">
-          <i class="fa fa-fw fa-file-pdf"></i>PDF
-        </a>
-        {% endif %}
-        {% if post.code %}
-          <a class="db ph0-l mid-gray dim"
-          href="{{post.code}}" target="_blank"
-          style="text-decoration: none; display: inline">
-          <i class="fa fa-fw fa-folder-open"></i>Code
-          </a>
-        {% endif %}
-        <a class="db ph0-l mid-gray dim"
-        href="/files/publications/bibtex/{{post.filename}}.txt" target="_blank"
-        style="text-decoration: none; display: inline">
-        <i class="fa fa-fw fa-book"></i>BibTeX
-        </a>
-        </p>
-    </div>
+{% assign heading = include.heading | default: 'h3' %}
+<article class="publication">
+  <div class="publication__thumbnail">
+    <img src="{{ '/files/publications/thumbnails/' | append: post.filename | append: '.svg' | relative_url }}" alt="" loading="lazy" width="600" height="400">
   </div>
-  <!-- </a> -->
+  <div class="publication__text">
+    <{{ heading }} class="publication__title">{{ post.title | escape }}</{{ heading }}>
+    <p class="publication__authors">{{ post.authors | replace: 'J. A. Lin', '<span class="publication__self">J. A. Lin</span>' | replace: '*', '<sup>＊</sup>' }}</p>
+    <p class="publication__venue"><i>{{ post.venue | escape }}</i>{% if post.award %} (<strong>{{ post.award | escape }}</strong>){% endif %}</p>
+    <p class="publication__links">
+      {% if post.pdf %}<a href="{{ post.pdf }}" target="_blank" rel="noopener noreferrer">{% include icons/pdf.svg %}PDF</a>{% endif %}
+      {% if post.code %}<a href="{{ post.code }}" target="_blank" rel="noopener noreferrer">{% include icons/code.svg %}Code</a>{% endif %}
+      <a href="{{ '/files/publications/bibtex/' | append: post.filename | append: '.txt' | relative_url }}" target="_blank" rel="noopener noreferrer">{% include icons/bibtex.svg %}BibTeX</a>
+    </p>
+  </div>
 </article>

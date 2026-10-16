@@ -1,0 +1,31 @@
+{% assign author = site.author %}
+{% if author.avatar contains "://" %}
+  {% assign avatar_url = author.avatar %}
+{% else %}
+  {% assign avatar_url = author.avatar | prepend: "/images/" | relative_url %}
+{% endif %}
+
+<header class="home__profile" itemscope itemtype="https://schema.org/Person">
+  <img class="home__avatar" src="{{ avatar_url }}" alt="{{ author.name | escape }}" width="160" height="160" itemprop="image">
+  <div class="home__identity">
+    <h1 itemprop="name">{{ author.name }}</h1>
+    {% if author.bio %}<p class="home__role">{{ author.bio }}</p>{% endif %}
+    {% if author.location %}
+      <p class="home__location">{% include icons/location.svg %} {{ author.location }}</p>
+    {% endif %}
+    <ul class="home__links">
+      {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}" target="_blank" rel="noopener noreferrer">{% include icons/scholar.svg %} Google Scholar</a></li>
+      {% endif %}
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}" target="_blank" rel="noopener noreferrer">{% include icons/github.svg %} GitHub</a></li>
+      {% endif %}
+      {% if author.linkedin %}
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" rel="noopener noreferrer">{% include icons/linkedin.svg %} LinkedIn</a></li>
+      {% endif %}
+      {% if author.email %}
+        <li><a href="mailto:{{ author.email }}">{% include icons/email.svg %} Email</a></li>
+      {% endif %}
+    </ul>
+  </div>
+</header>
