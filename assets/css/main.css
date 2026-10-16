@@ -161,9 +161,6 @@ sub { bottom: -0.25em; }
   margin: 0;
   padding-bottom: 2.5em;
 }
-.timeline__entry:last-child {
-  padding-bottom: 2.75em;
-}
 
 .timeline__row {
   position: relative;
@@ -188,10 +185,6 @@ sub { bottom: -0.25em; }
 
 .timeline__year {
   top: -0.1em;
-}
-
-.timeline__start-year {
-  bottom: 0;
 }
 
 .timeline__summary {

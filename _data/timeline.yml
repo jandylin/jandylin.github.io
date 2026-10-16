@@ -1,5 +1,6 @@
 # Main stages appear newest first; related work and study are grouped beneath them.
-# Year anchors mark end years; exact periods are retained for editing.
+# Year anchors mark end years of main milestones; supporting subheaders have no markers.
+# Exact periods are retained for editing.
 # Roles, degrees, and project details appear in the right column.
 # Set secondary: true for supporting roles and visiting-study subheaders.
 - organization: Meta
@@ -47,7 +48,6 @@
 - organization: TU Darmstadt
   period: Oct 2015–Sep 2021
   year: 2021
-  start_year: 2015
   subentries:
     - title: M.Sc. in Autonomous Systems
       period: Oct 2018–Sep 2021

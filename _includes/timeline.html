@@ -8,7 +8,7 @@
           <div class="timeline__row">
             {% if forloop.first %}
               <span class="timeline__label timeline__year">{{ entry.year | escape }}</span>
-            {% elsif subentry.year and subentry.year != marker_year %}
+            {% elsif subentry.year and subentry.year != marker_year and subentry.secondary != true %}
               <span class="timeline__label timeline__year">{{ subentry.year | escape }}</span>
               {% assign marker_year = subentry.year %}
             {% endif %}
@@ -31,9 +31,6 @@
             </div>
           </div>
         {% endfor %}
-        {% if forloop.last and entry.start_year %}
-          <span class="timeline__label timeline__start-year">{{ entry.start_year | escape }}</span>
-        {% endif %}
       </li>
     {% endfor %}
   </ol>
