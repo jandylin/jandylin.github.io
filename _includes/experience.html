@@ -1,7 +1,7 @@
 <section class="home__timeline" aria-labelledby="timeline">
-  <h2 id="timeline">Timeline</h2>
+  <h2 id="timeline">Experience</h2>
   <ol class="timeline" role="list">
-    {% for entry in site.data.timeline %}
+    {% for entry in site.data.experience %}
       <li class="timeline__entry">
         {% assign marker_year = entry.year %}
         {% for subentry in entry.subentries %}

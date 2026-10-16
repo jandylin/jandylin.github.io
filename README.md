@@ -1,6 +1,6 @@
 # Jihao Andreas Lin
 
-Personal website built with Jekyll for GitHub Pages. The homepage contains the profile, About section, Timeline, and Selected Publications.
+Personal website built with Jekyll for GitHub Pages. The homepage contains the profile, About section, Experience, and Selected Publications.
 
 ## Local development
 
@@ -25,7 +25,7 @@ Generated output lives in `_site/` and is ignored by Git.
 
 - `_config.yml`: site identity, profile image, role, location, and social links.
 - `_pages/about.md`: the biography in plain Markdown.
-- `_data/timeline.yml`: organizations, subentries, details, and visible year markers. Exact `period` values are retained for reference but are not displayed.
+- `_data/experience.yml`: organizations, subentries, details, and visible year markers. Exact `period` values are retained for reference but are not displayed.
 - `_publications/`: publication metadata. Set `selected: true` to show a paper on the homepage; entries appear in reverse chronological order.
 - `files/publications/`: SVG thumbnails and BibTeX citations, matched to each publication's `filename` field.
 - `images/`: profile image, icons, and other image assets.
@@ -33,7 +33,7 @@ Generated output lives in `_site/` and is ignored by Git.
 ## Page structure
 
 - `_layouts/home.html` assembles the homepage.
-- `_includes/home-profile.html`, `_includes/timeline.html`, and `_includes/archive-single-publication.html` render its components.
+- `_includes/home-profile.html`, `_includes/experience.html`, and `_includes/archive-single-publication.html` render its components.
 - `assets/css/main.css` contains the site styles, including responsive layouts and the CSS footer. There is no local JavaScript bundle or Node build step.
 - `_layouts/single.html` renders publication detail pages and the 404 page.
 - `_includes/icons/` contains the small set of attributed SVG icons.
